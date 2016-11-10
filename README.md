@@ -2,20 +2,33 @@
 
 This is a basic project to experiment with and demo some ResearchKit
 functionality using XCode 8 and the latest version of ResearchKit (currently the
-master branch, v1.4.1)
+head of the master branch)
 
 ## Development
+
+Assuming you have CocoaPods installed, just do:
+
+```sh
+pod install
+open ResearchKitDemo.xcworkspace
+```
+
+### Installing CocoaPods
 
 This project uses CocoaPods to pull the latest version of ResearchKit directly
 from GitHub.
 
 You will need to install CocoaPods (e.g., `sudo gem install cocoapods`)
 
+### Setting up project pods
+
 Then, within this project directory:
 
-```
+```sh
 pod install
 ```
+
+### Using XCode 
 
 To open in XCode:
 
